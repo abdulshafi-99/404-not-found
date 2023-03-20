@@ -33,18 +33,14 @@ h2, p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 60px;
 }
 
 .container .image {
     min-width: 286.83px;
     max-width: 539.22px;
-    margin-bottom: 60px;
 }
-@media (min-width: 1200px) {
-    .container .image {
-        margin-right: 118px;
-    }
-}
+
 .container .image img {
     max-width: 100%;
 }
