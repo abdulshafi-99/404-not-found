@@ -33,7 +33,14 @@ h2, p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 120px;
+    margin-top: 200px;
+}
+@media (max-width: 1261px) {
+    .container {
+        margin-top: 60px;
+        gap: 60px;
+  }   
 }
 
 .container .image {
@@ -45,7 +52,7 @@ h2, p {
     max-width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .container .text {
         margin-left: 24px;
     }
